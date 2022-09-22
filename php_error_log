@@ -1,0 +1,54 @@
+[18-Sep-2022 17:50:44 Europe/Berlin] PHP Warning:  Undefined variable $tableID in C:\xampp\htdocs\Systemica-Backend\routes\services\post.php on line 35
+[18-Sep-2022 18:02:23 Europe/Berlin] PHP Warning:  Undefined variable $tableID in C:\xampp\htdocs\Systemica-Backend\routes\services\post.php on line 8
+[22-Sep-2022 15:26:35 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 4' at line 1 in C:\xampp\htdocs\Systemica-Backend\models\delete.model.php:25
+Stack trace:
+#0 C:\xampp\htdocs\Systemica-Backend\models\delete.model.php(25): PDOStatement->execute()
+#1 C:\xampp\htdocs\Systemica-Backend\controllers\delete.controller.php(7): DeleteModel::deleteData('alumnos', Array)
+#2 C:\xampp\htdocs\Systemica-Backend\routes\services\delete.php(8): DeleteController::deleteData('alumnos', Array)
+#3 C:\xampp\htdocs\Systemica-Backend\routes\routes.php(29): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Systemica-Backend\controllers\routes.controller.php(5): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\Systemica-Backend\index.php(11): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\Systemica-Backend\models\delete.model.php on line 25
+[22-Sep-2022 16:35:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Systemica-Backend\controllers\delete.controller.php on line 14
+[22-Sep-2022 16:35:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Systemica-Backend\controllers\delete.controller.php on line 17
+[22-Sep-2022 16:35:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Systemica-Backend\controllers\delete.controller.php on line 18
+[22-Sep-2022 16:39:30 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Systemica-Backend\controllers\delete.controller.php on line 14
+[22-Sep-2022 16:39:30 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Systemica-Backend\controllers\delete.controller.php on line 17
+[22-Sep-2022 16:39:30 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Systemica-Backend\controllers\delete.controller.php on line 18
+[22-Sep-2022 16:42:27 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Systemica-Backend\controllers\delete.controller.php on line 14
+[22-Sep-2022 16:42:27 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Systemica-Backend\controllers\delete.controller.php on line 17
+[22-Sep-2022 16:42:27 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Systemica-Backend\controllers\delete.controller.php on line 18
+[22-Sep-2022 16:42:45 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Systemica-Backend\controllers\delete.controller.php on line 14
+[22-Sep-2022 16:42:45 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Systemica-Backend\controllers\delete.controller.php on line 17
+[22-Sep-2022 16:42:45 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Systemica-Backend\controllers\delete.controller.php on line 18
+[22-Sep-2022 16:43:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Systemica-Backend\controllers\delete.controller.php on line 14
+[22-Sep-2022 16:43:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Systemica-Backend\controllers\delete.controller.php on line 17
+[22-Sep-2022 16:43:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Systemica-Backend\controllers\delete.controller.php on line 18
+[22-Sep-2022 16:43:48 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Systemica-Backend\controllers\delete.controller.php on line 14
+[22-Sep-2022 16:43:48 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Systemica-Backend\controllers\delete.controller.php on line 17
+[22-Sep-2022 16:43:48 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Systemica-Backend\controllers\delete.controller.php on line 18
+[22-Sep-2022 16:44:18 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Systemica-Backend\controllers\delete.controller.php on line 14
+[22-Sep-2022 16:44:18 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Systemica-Backend\controllers\delete.controller.php on line 17
+[22-Sep-2022 16:44:18 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Systemica-Backend\controllers\delete.controller.php on line 18
+[22-Sep-2022 16:44:44 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Systemica-Backend\controllers\delete.controller.php on line 14
+[22-Sep-2022 16:44:44 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Systemica-Backend\controllers\delete.controller.php on line 17
+[22-Sep-2022 16:44:44 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Systemica-Backend\controllers\delete.controller.php on line 18
+[22-Sep-2022 16:45:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Systemica-Backend\controllers\delete.controller.php on line 14
+[22-Sep-2022 16:45:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Systemica-Backend\controllers\delete.controller.php on line 17
+[22-Sep-2022 16:45:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Systemica-Backend\controllers\delete.controller.php on line 18
+[22-Sep-2022 16:53:44 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Systemica-Backend\controllers\delete.controller.php on line 14
+[22-Sep-2022 16:53:44 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Systemica-Backend\controllers\delete.controller.php on line 17
+[22-Sep-2022 16:53:44 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Systemica-Backend\controllers\delete.controller.php on line 18
+[22-Sep-2022 16:54:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Systemica-Backend\controllers\delete.controller.php on line 14
+[22-Sep-2022 16:54:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Systemica-Backend\controllers\delete.controller.php on line 17
+[22-Sep-2022 16:54:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Systemica-Backend\controllers\delete.controller.php on line 18
+[22-Sep-2022 16:54:45 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Systemica-Backend\controllers\delete.controller.php on line 14
+[22-Sep-2022 16:54:45 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Systemica-Backend\controllers\delete.controller.php on line 17
+[22-Sep-2022 16:54:45 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Systemica-Backend\controllers\delete.controller.php on line 18
+[22-Sep-2022 16:55:25 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Systemica-Backend\controllers\delete.controller.php on line 14
+[22-Sep-2022 16:55:25 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Systemica-Backend\controllers\delete.controller.php on line 17
+[22-Sep-2022 16:55:25 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Systemica-Backend\controllers\delete.controller.php on line 18
+[22-Sep-2022 16:56:18 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Systemica-Backend\controllers\delete.controller.php on line 13
+[22-Sep-2022 16:56:18 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Systemica-Backend\controllers\delete.controller.php on line 16
+[22-Sep-2022 16:56:18 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Systemica-Backend\controllers\delete.controller.php on line 17
